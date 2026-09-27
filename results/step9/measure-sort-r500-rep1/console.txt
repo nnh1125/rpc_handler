@@ -1,0 +1,2 @@
+dispatched=15000 success=15000 errors=0 timeouts=0 missed=0 incomplete=0 throughput=499.97/s mean=3.103ms p50=2.727ms p95=3.474ms p99=14.903ms
+Reports: /Users/nganha/Documents/CS151/rpc_handler/results/step9/measure-sort-r500-rep1

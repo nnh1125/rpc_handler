@@ -1,0 +1,2 @@
+dispatched=59518 success=47356 errors=12162 timeouts=0 missed=90482 incomplete=0 throughput=1573.60/s mean=88.243ms p50=85.460ms p95=110.181ms p99=141.311ms
+Reports: /Users/nganha/Documents/CS151/rpc_handler/results/step9/measure-matrix-r5000-rep1

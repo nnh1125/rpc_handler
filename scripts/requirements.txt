@@ -1,0 +1,2 @@
+# Plot regeneration only; RPC server/client/load generator are Go.
+matplotlib==3.10.1

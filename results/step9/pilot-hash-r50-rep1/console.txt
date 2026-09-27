@@ -1,0 +1,2 @@
+dispatched=100 success=100 errors=0 timeouts=0 missed=0 incomplete=0 throughput=50.00/s mean=1.400ms p50=1.192ms p95=2.054ms p99=5.456ms
+Reports: /Users/nganha/Documents/CS151/rpc_handler/results/step9/pilot-hash-r50-rep1

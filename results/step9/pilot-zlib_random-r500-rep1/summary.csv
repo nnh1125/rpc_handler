@@ -1,0 +1,3 @@
+scope,scheduled,dispatched,successes,errors,timeouts,missed,incomplete,successful_completions_in_window,late_dispatches,offered_rate,dispatched_rate,throughput,mean_ms,p50_ms,p95_ms,p99_ms,mean_scheduling_delay_ms,max_scheduling_delay_ms
+all,1000,1000,1000,0,0,0,0,1000,36,500.000000,500.000000,500.000000,2.494559,0.942458,9.778750,37.193167,0.283530,10.189333
+compress_data,1000,1000,1000,0,0,0,0,1000,36,500.000000,500.000000,500.000000,2.494559,0.942458,9.778750,37.193167,0.283530,10.189333

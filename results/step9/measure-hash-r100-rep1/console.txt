@@ -1,0 +1,2 @@
+dispatched=3000 success=3000 errors=0 timeouts=0 missed=0 incomplete=0 throughput=100.00/s mean=2.160ms p50=1.115ms p95=3.107ms p99=31.397ms
+Reports: /Users/nganha/Documents/CS151/rpc_handler/results/step9/measure-hash-r100-rep1

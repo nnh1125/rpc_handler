@@ -1,0 +1,108 @@
+{
+  "StartedUTC": "2026-09-27T00:00:51.107082Z",
+  "Address": "127.0.0.1:63738",
+  "Connections": 4,
+  "Warmup": "1s",
+  "Config": {
+    "Rate": 1000,
+    "Duration": 2000000000,
+    "Drain": 2000000000,
+    "Timeout": 2000000000,
+    "MaxInFlight": 512,
+    "Seed": 1,
+    "LateThreshold": 1000000
+  },
+  "Workload": {
+    "Mix": "hash_compute:1",
+    "Bytes": 4096,
+    "SortSize": 2048,
+    "MatrixN": 32,
+    "Algorithm": "zlib",
+    "Compressible": false,
+    "Samples": 8,
+    "Seed": 1
+  },
+  "GoVersion": "go1.25.5",
+  "OS": "darwin",
+  "Architecture": "arm64",
+  "CPUs": 11,
+  "Retries": 0,
+  "Interrupted": false,
+  "Summaries": [
+    {
+      "scope": "all",
+      "scheduled": 2000,
+      "dispatched": 2000,
+      "successes": 2000,
+      "errors": 0,
+      "timeouts": 0,
+      "missed": 0,
+      "incomplete": 0,
+      "successful_completions_in_window": 2000,
+      "late_dispatches": 0,
+      "offered_rate": 1000,
+      "dispatched_rate": 1000,
+      "throughput": 1000,
+      "mean_ms": 0.5474492019999999,
+      "p50_ms": 0.453416,
+      "p95_ms": 0.625875,
+      "p99_ms": 1.403084,
+      "mean_scheduling_delay_ms": 0.07268482650000008,
+      "max_scheduling_delay_ms": 0.19475,
+      "outcomes": {
+        "success": 2000
+      },
+      "error_codes": {}
+    },
+    {
+      "scope": "hash_compute",
+      "scheduled": 2000,
+      "dispatched": 2000,
+      "successes": 2000,
+      "errors": 0,
+      "timeouts": 0,
+      "missed": 0,
+      "incomplete": 0,
+      "successful_completions_in_window": 2000,
+      "late_dispatches": 0,
+      "offered_rate": 1000,
+      "dispatched_rate": 1000,
+      "throughput": 1000,
+      "mean_ms": 0.5474492019999999,
+      "p50_ms": 0.453416,
+      "p95_ms": 0.625875,
+      "p99_ms": 1.403084,
+      "mean_scheduling_delay_ms": 0.07268482650000008,
+      "max_scheduling_delay_ms": 0.19475,
+      "outcomes": {
+        "success": 2000
+      },
+      "error_codes": {}
+    }
+  ],
+  "WarmupSummary": {
+    "scope": "all",
+    "scheduled": 1000,
+    "dispatched": 1000,
+    "successes": 1000,
+    "errors": 0,
+    "timeouts": 0,
+    "missed": 0,
+    "incomplete": 0,
+    "successful_completions_in_window": 1000,
+    "late_dispatches": 0,
+    "offered_rate": 1000,
+    "dispatched_rate": 1000,
+    "throughput": 1000,
+    "mean_ms": 0.5225437949999999,
+    "p50_ms": 0.467916,
+    "p95_ms": 0.906917,
+    "p99_ms": 1.347375,
+    "mean_scheduling_delay_ms": 0.07915057699999992,
+    "max_scheduling_delay_ms": 0.326667,
+    "outcomes": {
+      "success": 1000
+    },
+    "error_codes": {}
+  }
+}

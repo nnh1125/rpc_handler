@@ -1,0 +1,2 @@
+dispatched=1000 success=1000 errors=0 timeouts=0 missed=0 incomplete=0 throughput=499.50/s mean=2.688ms p50=2.656ms p95=2.943ms p99=3.103ms
+Reports: /Users/nganha/Documents/CS151/rpc_handler/results/step9/pilot-sort-r500-rep1

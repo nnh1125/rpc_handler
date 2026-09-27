@@ -1,0 +1,2 @@
+dispatched=20 success=20 errors=0 timeouts=0 missed=0 incomplete=0 throughput=10.00/s mean=5.973ms p50=5.939ms p95=8.662ms p99=8.710ms
+Reports: /Users/nganha/Documents/CS151/rpc_handler/results/step9/pilot-sort-r10-rep1

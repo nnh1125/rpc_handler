@@ -1,0 +1,2 @@
+dispatched=200 success=200 errors=0 timeouts=0 missed=0 incomplete=0 throughput=100.00/s mean=2.683ms p50=3.263ms p95=5.098ms p99=5.484ms
+Reports: /Users/nganha/Documents/CS151/rpc_handler/results/step9/pilot-mixed-r100-rep1

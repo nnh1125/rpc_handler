@@ -1,0 +1,108 @@
+{
+  "StartedUTC": "2026-09-27T00:15:45.917768Z",
+  "Address": "127.0.0.1:64198",
+  "Connections": 4,
+  "Warmup": "2s",
+  "Config": {
+    "Rate": 100,
+    "Duration": 30000000000,
+    "Drain": 2000000000,
+    "Timeout": 2000000000,
+    "MaxInFlight": 512,
+    "Seed": 3,
+    "LateThreshold": 1000000
+  },
+  "Workload": {
+    "Mix": "compress_data:1",
+    "Bytes": 4096,
+    "SortSize": 2048,
+    "MatrixN": 32,
+    "Algorithm": "zlib",
+    "Compressible": true,
+    "Samples": 8,
+    "Seed": 3
+  },
+  "GoVersion": "go1.25.5",
+  "OS": "darwin",
+  "Architecture": "arm64",
+  "CPUs": 11,
+  "Retries": 0,
+  "Interrupted": false,
+  "Summaries": [
+    {
+      "scope": "all",
+      "scheduled": 3000,
+      "dispatched": 3000,
+      "successes": 3000,
+      "errors": 0,
+      "timeouts": 0,
+      "missed": 0,
+      "incomplete": 0,
+      "successful_completions_in_window": 3000,
+      "late_dispatches": 1746,
+      "offered_rate": 100,
+      "dispatched_rate": 100,
+      "throughput": 100,
+      "mean_ms": 1.6045186196666676,
+      "p50_ms": 1.363625,
+      "p95_ms": 2.530333,
+      "p99_ms": 6.329292,
+      "mean_scheduling_delay_ms": 0.9761417883333354,
+      "max_scheduling_delay_ms": 31.41625,
+      "outcomes": {
+        "success": 3000
+      },
+      "error_codes": {}
+    },
+    {
+      "scope": "compress_data",
+      "scheduled": 3000,
+      "dispatched": 3000,
+      "successes": 3000,
+      "errors": 0,
+      "timeouts": 0,
+      "missed": 0,
+      "incomplete": 0,
+      "successful_completions_in_window": 3000,
+      "late_dispatches": 1746,
+      "offered_rate": 100,
+      "dispatched_rate": 100,
+      "throughput": 100,
+      "mean_ms": 1.6045186196666676,
+      "p50_ms": 1.363625,
+      "p95_ms": 2.530333,
+      "p99_ms": 6.329292,
+      "mean_scheduling_delay_ms": 0.9761417883333354,
+      "max_scheduling_delay_ms": 31.41625,
+      "outcomes": {
+        "success": 3000
+      },
+      "error_codes": {}
+    }
+  ],
+  "WarmupSummary": {
+    "scope": "all",
+    "scheduled": 200,
+    "dispatched": 200,
+    "successes": 200,
+    "errors": 0,
+    "timeouts": 0,
+    "missed": 0,
+    "incomplete": 0,
+    "successful_completions_in_window": 200,
+    "late_dispatches": 98,
+    "offered_rate": 100,
+    "dispatched_rate": 100,
+    "throughput": 100,
+    "mean_ms": 1.4130922900000003,
+    "p50_ms": 1.338833,
+    "p95_ms": 2.538708,
+    "p99_ms": 3.105375,
+    "mean_scheduling_delay_ms": 0.832416375,
+    "max_scheduling_delay_ms": 1.870209,
+    "outcomes": {
+      "success": 200
+    },
+    "error_codes": {}
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "scope": "all",
+    "scheduled": 200,
+    "dispatched": 200,
+    "successes": 200,
+    "errors": 0,
+    "timeouts": 0,
+    "missed": 0,
+    "incomplete": 0,
+    "successful_completions_in_window": 200,
+    "late_dispatches": 128,
+    "offered_rate": 100,
+    "dispatched_rate": 100,
+    "throughput": 100,
+    "mean_ms": 1.1454580050000005,
+    "p50_ms": 1.060416,
+    "p95_ms": 2.044709,
+    "p99_ms": 2.689625,
+    "mean_scheduling_delay_ms": 0.9691696400000005,
+    "max_scheduling_delay_ms": 3.6025,
+    "outcomes": {
+      "success": 200
+    },
+    "error_codes": {}
+  },
+  "scheduling_p95_ms": 1.157834,
+  "passes_threshold": true,
+  "phase": "pilot",
+  "scenario": "hash",
+  "rate": 100,
+  "repeat": 1,
+  "duration": "2s",
+  "elapsed_s": 3.0329582691192627
+}

@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "scope": "all",
+    "scheduled": 150000,
+    "dispatched": 150000,
+    "successes": 140759,
+    "errors": 9241,
+    "timeouts": 0,
+    "missed": 0,
+    "incomplete": 0,
+    "successful_completions_in_window": 140621,
+    "late_dispatches": 1175,
+    "offered_rate": 5000,
+    "dispatched_rate": 5000,
+    "throughput": 4687.366666666667,
+    "mean_ms": 9.914943307518627,
+    "p50_ms": 1.546833,
+    "p95_ms": 36.337667,
+    "p99_ms": 69.481042,
+    "mean_scheduling_delay_ms": 0.09815814791999913,
+    "max_scheduling_delay_ms": 24.634041,
+    "outcomes": {
+      "error": 9241,
+      "success": 140759
+    },
+    "error_codes": {
+      "OVERLOADED": 9241
+    }
+  },
+  "scheduling_p95_ms": 0.140166,
+  "passes_threshold": false,
+  "phase": "measure",
+  "scenario": "zlib_random",
+  "rate": 5000,
+  "repeat": 2,
+  "duration": "30s",
+  "elapsed_s": 33.11476492881775
+}

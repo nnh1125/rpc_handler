@@ -1,0 +1,2 @@
+dispatched=1000 success=1000 errors=0 timeouts=0 missed=0 incomplete=0 throughput=500.00/s mean=2.495ms p50=0.942ms p95=9.779ms p99=37.193ms
+Reports: /Users/nganha/Documents/CS151/rpc_handler/results/step9/pilot-zlib_random-r500-rep1

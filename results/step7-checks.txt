@@ -1,0 +1,22 @@
+Step 7 correctness and concurrency validation
+Date: 2026-09-26
+Environment: go version go1.25.5 darwin/arm64
+Command: go test ./... && go test -race ./... && go vet ./...
+Exit code: 0
+
+ok  	rpc_handler/client	0.620s
+?   	rpc_handler/cmd/hash	[no test files]
+?   	rpc_handler/cmd/server	[no test files]
+ok  	rpc_handler/internal/operations	0.389s
+ok  	rpc_handler/internal/protocol	0.222s
+ok  	rpc_handler/internal/server	0.841s
+ok  	rpc_handler/client	1.347s
+?   	rpc_handler/cmd/hash	[no test files]
+?   	rpc_handler/cmd/server	[no test files]
+ok  	rpc_handler/internal/operations	(cached)
+ok  	rpc_handler/internal/protocol	(cached)
+ok  	rpc_handler/internal/server	(cached)
+
+The first package block is go test; the second is go test -race.
+go vet completed successfully without diagnostic output.
+Cached package results are identified by Go above.

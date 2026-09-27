@@ -1,0 +1,40 @@
+{
+  "summary": {
+    "scope": "all",
+    "scheduled": 10000,
+    "dispatched": 3842,
+    "successes": 3377,
+    "errors": 465,
+    "timeouts": 0,
+    "missed": 6158,
+    "incomplete": 0,
+    "successful_completions_in_window": 3234,
+    "late_dispatches": 3837,
+    "offered_rate": 5000,
+    "dispatched_rate": 1921,
+    "throughput": 1617,
+    "mean_ms": 75.24020381907022,
+    "p50_ms": 79.282958,
+    "p95_ms": 97.844417,
+    "p99_ms": 113.087709,
+    "mean_scheduling_delay_ms": 631.2643817740759,
+    "max_scheduling_delay_ms": 1231.248916,
+    "outcomes": {
+      "error": 465,
+      "missed_late": 6158,
+      "success": 3377
+    },
+    "error_codes": {
+      "ARRIVAL_WINDOW_ENDED": 6158,
+      "OVERLOADED": 465
+    }
+  },
+  "scheduling_p95_ms": 1173.888166,
+  "passes_threshold": false,
+  "phase": "pilot",
+  "scenario": "matrix",
+  "rate": 5000,
+  "repeat": 1,
+  "duration": "2s",
+  "elapsed_s": 3.154897928237915
+}

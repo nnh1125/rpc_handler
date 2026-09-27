@@ -1,0 +1,2 @@
+dispatched=3000 success=3000 errors=0 timeouts=0 missed=0 incomplete=0 throughput=100.00/s mean=2.909ms p50=2.948ms p95=5.568ms p99=11.891ms
+Reports: /Users/nganha/Documents/CS151/rpc_handler/results/step9/measure-mixed-r100-rep2

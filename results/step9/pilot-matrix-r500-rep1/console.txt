@@ -1,0 +1,2 @@
+dispatched=1000 success=1000 errors=0 timeouts=0 missed=0 incomplete=0 throughput=499.50/s mean=3.415ms p50=3.394ms p95=3.631ms p99=3.804ms
+Reports: /Users/nganha/Documents/CS151/rpc_handler/results/step9/pilot-matrix-r500-rep1

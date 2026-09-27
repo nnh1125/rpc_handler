@@ -1,0 +1,2 @@
+dispatched=30000 success=30000 errors=0 timeouts=0 missed=0 incomplete=0 throughput=1000.00/s mean=2.160ms p50=0.701ms p95=1.901ms p99=45.402ms
+Reports: /Users/nganha/Documents/CS151/rpc_handler/results/step9/measure-zlib_random-r1000-rep1

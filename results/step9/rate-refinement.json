@@ -1,0 +1,8 @@
+{
+  "sort": {
+    "added_rate": 2000,
+    "reason": "Two 30-second repetitions passed at 1000 requests/s, so add 2000 to seek a higher-load boundary.",
+    "repeats": 3,
+    "duration": "30s"
+  }
+}

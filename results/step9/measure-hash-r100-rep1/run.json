@@ -1,0 +1,108 @@
+{
+  "StartedUTC": "2026-09-27T00:13:00.716874Z",
+  "Address": "127.0.0.1:64116",
+  "Connections": 4,
+  "Warmup": "2s",
+  "Config": {
+    "Rate": 100,
+    "Duration": 30000000000,
+    "Drain": 2000000000,
+    "Timeout": 2000000000,
+    "MaxInFlight": 512,
+    "Seed": 1,
+    "LateThreshold": 1000000
+  },
+  "Workload": {
+    "Mix": "hash_compute:1",
+    "Bytes": 4096,
+    "SortSize": 2048,
+    "MatrixN": 32,
+    "Algorithm": "zlib",
+    "Compressible": false,
+    "Samples": 8,
+    "Seed": 1
+  },
+  "GoVersion": "go1.25.5",
+  "OS": "darwin",
+  "Architecture": "arm64",
+  "CPUs": 11,
+  "Retries": 0,
+  "Interrupted": false,
+  "Summaries": [
+    {
+      "scope": "all",
+      "scheduled": 3000,
+      "dispatched": 3000,
+      "successes": 3000,
+      "errors": 0,
+      "timeouts": 0,
+      "missed": 0,
+      "incomplete": 0,
+      "successful_completions_in_window": 3000,
+      "late_dispatches": 1680,
+      "offered_rate": 100,
+      "dispatched_rate": 100,
+      "throughput": 100,
+      "mean_ms": 2.1602035806666686,
+      "p50_ms": 1.115167,
+      "p95_ms": 3.107334,
+      "p99_ms": 31.39725,
+      "mean_scheduling_delay_ms": 1.444334907333329,
+      "max_scheduling_delay_ms": 103.872542,
+      "outcomes": {
+        "success": 3000
+      },
+      "error_codes": {}
+    },
+    {
+      "scope": "hash_compute",
+      "scheduled": 3000,
+      "dispatched": 3000,
+      "successes": 3000,
+      "errors": 0,
+      "timeouts": 0,
+      "missed": 0,
+      "incomplete": 0,
+      "successful_completions_in_window": 3000,
+      "late_dispatches": 1680,
+      "offered_rate": 100,
+      "dispatched_rate": 100,
+      "throughput": 100,
+      "mean_ms": 2.1602035806666686,
+      "p50_ms": 1.115167,
+      "p95_ms": 3.107334,
+      "p99_ms": 31.39725,
+      "mean_scheduling_delay_ms": 1.444334907333329,
+      "max_scheduling_delay_ms": 103.872542,
+      "outcomes": {
+        "success": 3000
+      },
+      "error_codes": {}
+    }
+  ],
+  "WarmupSummary": {
+    "scope": "all",
+    "scheduled": 200,
+    "dispatched": 200,
+    "successes": 200,
+    "errors": 0,
+    "timeouts": 0,
+    "missed": 0,
+    "incomplete": 0,
+    "successful_completions_in_window": 200,
+    "late_dispatches": 96,
+    "offered_rate": 100,
+    "dispatched_rate": 100,
+    "throughput": 100,
+    "mean_ms": 1.77944873,
+    "p50_ms": 1.063708,
+    "p95_ms": 4.192209,
+    "p99_ms": 14.339375,
+    "mean_scheduling_delay_ms": 1.00296127,
+    "max_scheduling_delay_ms": 17.507958,
+    "outcomes": {
+      "success": 200
+    },
+    "error_codes": {}
+  }
+}
